@@ -2,7 +2,7 @@ const config = {
     TOKEN: process.env.TOKEN,
     COOKIE: process.env.COOKIE,
     TEAM_ID:process.env.TEAM_ID,
-    CHANNEL:process.env.CHANNELE,
+    CHANNEL:process.env.CHANNEL,
     CLAUDE_USER:process.env.CLAUDE_USER,
 
     MAINPROMPT_LAST: false, // Will try to move the main prompt (main + nsfw prompt from SillyTavern) to the bottom, similar to a jailbreak
