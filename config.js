@@ -1,6 +1,6 @@
 const config = {
-    TOKEN: "",
-    COOKIE: "",
+    TOKEN: process.env.TOKEN,
+    COOKIE: process.env.COOKIE,
     TEAM_ID: "",
     CHANNEL: "",
     CLAUDE_USER: "",
